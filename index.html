@@ -7,8 +7,15 @@
     </head>
 <body>
 
-    <h1 style="color:red;">Ceci est un test en rouge !</h1>
+<h1>Ceci est un test en rouge !</h1>
     <p>Je suis en train d'apprendre à utiliser Git et GitHub Desktop.</p>
+    
+    <button id="monBouton">Cliquez sur moi !</button>
 
+    <script>
+        document.getElementById("monBouton").addEventListener("click", function() {
+            alert("Bravo ! Vous avez déclenché votre première interaction JavaScript.");
+        });
+    </script>
 </body>
 </html>
